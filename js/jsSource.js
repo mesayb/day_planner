@@ -8,11 +8,14 @@ var scheduleRecord = [];
 var todayDate = moment().format("dddd, MMMM Do");
 currentDay.text(todayDate);
 
+
+var myMoment = moment();
 //Testing purpose only - delete this and update if to moment()
-var myMoment = moment().set({
-    'hour': 11,
-    'minute': 30
-});
+// var myMoment = moment().set({
+//     'hour': 14,
+//     'minute': 30
+// });
+
 
 //CREATE active hours array
 var activeHours = ["9AM", "10AM", "11AM", "12PM", "1PM", "2PM", "3PM", "4PM", "5PM"];
